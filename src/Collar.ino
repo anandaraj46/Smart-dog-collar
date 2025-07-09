@@ -5,6 +5,7 @@
 #include <MPU9250_asukiaaa.h>
 #include <WiFi.h>
 #include <HTTPClient.h>
+#include "secrets.h"
 
 #define SDA_PIN 21
 #define SCL_PIN 22
