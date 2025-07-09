@@ -27,10 +27,10 @@ int beatAvg = 0;
 unsigned long previousTempRead = 0;
 
 // Network credentials and server URLs
-const char* ssid = "Moto edge 50 pro";
-const char* password = "Pvmmnjaaa";
-const char* flask_server_url = "http://192.168.169.52:5000/predict";
-const char* render_server_url = "https://test-ptcb.onrender.com/data";
+const char* ssid = "wifi_name";
+const char* password = "wifi_pass";
+const char* flask_server_url = "flask_ip";
+const char* render_server_url = "render_ur";
 
 // For collecting MPU data
 const int WINDOW_SIZE = 100;
